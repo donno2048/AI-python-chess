@@ -1127,7 +1127,7 @@ def er(x,logic=1)->None:#if endgame di['K']=di['k']
 		ind=0
 		r=0
 		for j in alt(x):
-			if j=='♖' and '♙' not in [alt(x)[i] for i in [ind%8+i for i in range(8)]]:r+=375 if '♟' not in [alt(x)[i] for i in [ind%8+i for i in range(8)]] else 125
+			if j=='♖' and '♙' not in [alt(x)[i] for i in [ind%8+8*i for i in range(8)]]:r+=375 if '♟' not in [alt(x)[i] for i in [ind%8+8*i for i in range(8)]] else 125
 			ind+=1
 		check=x.is_check()*sum([(str(c).replace(' ','').replace('\n','')['abcdefgh'.index(str(x.peek())[0])+(8-int(str(x.peek())[1]))*8]==i)*ch[i] for i in 'PNBRQK'])
 		bi=[str(x).replace(' ','').replace('\n','')['abcdefgh'.index(str(x.uci(j))[0])+(8-int(str(x.uci(j))[1]))*8]=='B' for j in list(x.pseudo_legal_moves)]
