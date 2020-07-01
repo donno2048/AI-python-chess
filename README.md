@@ -19,4 +19,4 @@ the computer is kinda slow at first but don't worry it will be faster...
 
 ## More information:
 
-the specific numbers in the program have been taken from the [incredible article by Aidan Haran](http://doras.dcu.ie/17193/1/aidan_haran_20120704093656.pdf) where he has already tested the numbers I would specify and 'did the work for me' I chose what he called "Aggressive Personality" (page 71) because it has 27 points, while the other configurations have: -135, 11, -72 and -12 (page 83)
+the specific numbers in the program have been taken from the [incredible article](http://doras.dcu.ie/17193/1/aidan_haran_20120704093656.pdf) by [Aidan Haran](https://github.com/aidanharan) where he has already tested the numbers I would specify and 'did the work for me' I chose what he called "Aggressive Personality" (page 71) because it has 27 points, while the other configurations have: -135, 11, -72 and -12 (page 83)
