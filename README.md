@@ -5,7 +5,7 @@ you're the white player,
 
 ## to use it:
 
-just download the latest release, open cmd in the directory where you put this project and run: `python chess.py`
+just download the latest release from the [releases section](https://github.com/donno2048/AI-python-chess/releases), open cmd in the directory where you put this project and run: `python chess.py`
 
 ## How to play:
 
