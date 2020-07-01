@@ -11,7 +11,7 @@ just download the latest release, open cmd in the directory where you put this p
 
 click the place you want to move from, then click the place you want to move to, then press sent.
 
-if you have pressed anything else don't worry, this program is pretty smart, just repeat the former step, the program will chose your last step.
+if you have pressed anything else don't worry, this program is pretty smart, just repeat the former step, the program will choose your last step.
 
 if you press sent and the step you did is invalid the same board will be load again.
 
