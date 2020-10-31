@@ -1,7 +1,7 @@
 # AI-python-chess
-With this code you can play chess with an artificial intelligence
+With this code you can play chess with an artificial intelligence (<b>no pip required</b>)
 
-you're the white player,
+you're the white player
 
 ## To use it:
 
