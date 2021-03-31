@@ -1,4 +1,4 @@
-from typing import Generic, Hashable, Iterable, Iterator, List, Mapping, Optional, SupportsInt, Tuple, Type, TypeVar, Union
+from typing import Generic, Iterable, Iterator, List, Optional, Tuple, Type, TypeVar
 from enum import IntFlag
 import typing
 from re import compile
@@ -917,9 +917,7 @@ class Board(BaseBoard):
             diff = square_file(move.from_square) - square_file(move.to_square)
             return abs(diff) > 1 or bool(self.rooks & self.occupied_co[self.turn] & BB_SQUARES[move.to_square])
         return False
-    def _push_capture(self, move: Move, capture_square: int, piece_type: int, was_promoted: bool) -> None:
-        pass
-        return not any(self.generate_legal_moves())
+    def _push_capture(self, move: Move, capture_square: int, piece_type: int, was_promoted: bool) -> None: return not any(self.generate_legal_moves())
     def push(self: BoardT, move: Move) -> None:
         move = self._to_chess960(move)
         self.move_stack.append(self._from_chess960(self.chess960, move.from_square, move.to_square, move.promotion, move.drop))
